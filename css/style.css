@@ -6,3 +6,9 @@ header {
 .py-10 {
   padding: 150px 0;
 }
+.bg-slate-clr {
+  background-color: rgb(15 23 42);
+}
+.bg-dark-gray {
+  background-color: #090b11;
+}
