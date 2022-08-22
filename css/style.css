@@ -12,3 +12,8 @@ header {
 .bg-dark-gray {
   background-color: #090b11;
 }
+hr {
+  height: 1px;
+  background-color: #ccc;
+  border: none;
+}
