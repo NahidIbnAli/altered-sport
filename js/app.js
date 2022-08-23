@@ -9,6 +9,7 @@ function addToList(event){
     const playerName = event.parentNode.children[0].innerText;
     const olBody = document.getElementById('ol-body');
     const li = document.createElement('li');
+    li.classList.add('mb-3');
     li.innerText = playerName;
     olBody.appendChild(li);
     playersList.push(li);
