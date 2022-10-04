@@ -11,7 +11,7 @@ function getElementValue(elementId, isInput){
     }
 }
 
-// This function is for setting element value
+// This function is for set element value
 function setElementValue(elementId, value){
     const element = document.getElementById(elementId);
     element.innerText = value;
